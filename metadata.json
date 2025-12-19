@@ -1,0 +1,8 @@
+{
+  "name": "Holographic OS",
+  "description": "A 3D parallax interface that uses your webcam to track head movement, creating a depth illusion where elements pop out of the screen.",
+  "author": "Sahil Shingate",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
