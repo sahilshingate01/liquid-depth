@@ -27,7 +27,8 @@ export const ParallaxCard: React.FC<ParallaxCardProps> = React.memo(({ children,
   const style = useMemo(() => ({
     willChange: 'box-shadow',
     transform: 'translate3d(0,0,0)',
-        boxShadow: `
+    contain: 'layout style paint',
+    boxShadow: `
       calc((var(--head-x) + ${lightDir.x * 0.3}) * ${4 * scale * intensity}px) 
       calc((var(--head-y) + ${lightDir.y * 0.3}) * ${4 * scale * intensity}px) 
       0 0 rgba(255,255,255,${0.35 * intensity}),
