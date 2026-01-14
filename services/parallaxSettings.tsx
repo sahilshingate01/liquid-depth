@@ -2,10 +2,10 @@ import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { ParallaxSettings } from '../types';
 
 const defaultSettings: ParallaxSettings = {
-  smoothing: 0.1,
-  inertia: 0.1,
-  sensitivity: 2.0,
-  movementRange: 60,
+  smoothing: 0,
+  inertia: 0,
+  sensitivity: 2.8,
+  movementRange: 75,
   rotationStrength: 5,
   depthMultiplier: 0.5,
   jitterThreshold: 0.005,
