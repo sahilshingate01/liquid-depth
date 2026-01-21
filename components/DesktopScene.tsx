@@ -112,7 +112,8 @@ export const DesktopScene: React.FC = () => {
 
             {/* Ambient Lighting Spots */}
             <div className="absolute top-1/4 left-1/4 w-[800px] h-[800px] bg-blue-900/10 rounded-full blur-[150px]" />
-                    </div>
+            <div className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-purple-900/10 rounded-full blur-[150px]" />
+        </div>
       </ParallaxItem>
 
       {/* MID LAYER - Floating Icons/Decor */}
