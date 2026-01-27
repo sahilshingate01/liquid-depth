@@ -52,3 +52,35 @@ ParallaxSettingsProvider     # Global settings context
 
 See [docs/COMPONENTS.md](docs/COMPONENTS.md) for full API.
 
+## Settings
+
+| Setting | Description |
+|---------|-------------|
+| Smoothing | Movement lag/delay (0-1) |
+| Inertia | Spring bounce effect (0-1) |
+| Sensitivity | Head movement multiplier (0.5-3.0) |
+| Movement Range | Max parallax distance in px |
+| Rotation Strength | 3D tilt angle (0-60°) |
+| Depth Multiplier | Z-axis scaling |
+| Attack | Response curve (<1 ease-in, >1 ease-out) |
+| Light Position | Virtual light direction (9 positions) |
+| Light Intensity | Shadow/highlight brightness (0-1) |
+| Window Tracking | Browser window movement parallax |
+| Child Edges | Depth shadows on nested elements |
+
+## Technologies
+
+- React 19
+- TypeScript
+- MediaPipe Face Mesh
+- Tailwind CSS
+- Vite
+
+## Author
+
+Built by [Sahil Shingate](https://github.com/sahilshingate01)
+
+## License
+
+MIT - see [LICENSE](LICENSE)
+
